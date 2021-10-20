@@ -1,0 +1,80 @@
+unit ULib;
+
+
+interface
+uses
+   DBClient,  Classes, UPessoa, SysUtils, DB, Ibx.IBDatabase, Ibx.IBCustomDataSet, Ibx.IBQuery;
+
+  function removePontoBarra(STexto : string): string;
+  function formatarCpfCnpj(STexto : string): string;
+  function formatarCep(STexto : string): string;
+  function formatarTelefone(STexto : string): string;
+  procedure DigitarApenasNumero(bPermiteVirgula : boolean; var Key: Char);
+
+
+implementation
+
+
+function removePontoBarra(STexto : string): string;
+begin
+  STexto := StringReplace(STexto, '.','', [rfReplaceAll]);
+  STexto := StringReplace(STexto, '/','', [rfReplaceAll]);
+  STexto := StringReplace(STexto, '-','', [rfReplaceAll]);
+  STexto := StringReplace(STexto, ')','', [rfReplaceAll]);
+  STexto := StringReplace(STexto, '(','', [rfReplaceAll]);
+  result := STexto;
+end;
+
+function formatarCpfCnpj(STexto : string): string;
+begin
+  if (Length(STexto) = 11) then
+  begin
+    Result:= Copy(STexto,1,3) + '.' + Copy(STexto,4,3) + '.' + Copy(STexto,7,3) + '-' + Copy(STexto,10,2);
+  end
+  else if (Length(STexto) = 14) then
+  begin
+    Result:= Copy(STexto,1,2) + '.' + Copy(STexto,3,3) + '.' + Copy(STexto,6,3) + '/' + Copy(STexto,9,4) + '-' + Copy(STexto,13,2);
+  end
+  else
+    Result := '';
+end;
+
+function formatarCep(STexto : string): string;
+begin
+  if (Length(STexto) = 8) then
+  begin
+    Result:= Copy(STexto,1,2) + '.' + Copy(STexto,3,3) + '-' + Copy(STexto,6,3);
+  end
+  else
+    Result := '';
+end;
+
+function formatarTelefone(STexto : string): string;
+begin
+  if (Length(STexto) = 10) then
+  begin
+    Result:= '(' + Copy(STexto,1,2) + ')' + Copy(STexto,3,4) + '-' + Copy(STexto,7,4);
+  end
+  else if (Length(STexto) = 11) then
+  begin
+    Result:= '(' + Copy(STexto,1,2) + ')' + Copy(STexto,3,5) + '-' + Copy(STexto,8,4);
+  end
+  else
+    Result := '';
+end;
+
+procedure DigitarApenasNumero(bPermiteVirgula : boolean;var Key: Char);
+begin
+  if bPermiteVirgula then
+  begin
+    if not (key in ['0'..'9',',', #8]) then
+      key := #0;
+  end
+  else
+  begin
+    if not (key in ['0'..'9',#8]) then
+      key := #0;
+  end;
+end;
+
+end.

@@ -1,0 +1,96 @@
+unit UCadastro;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, UBase, Vcl.ExtCtrls, Vcl.StdCtrls,
+  Vcl.Buttons;
+
+type
+  TAcao = (acNenhuma,acAlterar, acIncluir, acExcluir, acPesquisar, acVisualizar);
+
+  TFrmCadastro = class(TFrmBase)
+    PnlBotton: TPanel;
+    PnlClient: TPanel;
+    BtCancelar: TBitBtn;
+    BtConfirmar: TBitBtn;
+    procedure BtConfirmarClick(Sender: TObject);
+    procedure BtCancelarClick(Sender: TObject);
+  private
+    { Private declarations }
+   class function Atualizar(): boolean; virtual;
+   class function Incluir(): boolean; virtual;
+   class function ValidaDados(): boolean; virtual;
+   class procedure ControleParaObjeto; virtual;
+   class procedure ObjetoParaControle; virtual;
+  public
+    Acao : TAcao;
+    { Public declarations }
+  end;
+
+var
+  FrmCadastro: TFrmCadastro;
+
+implementation
+
+{$R *.dfm}
+
+
+
+class function TFrmCadastro.Atualizar: boolean;
+begin
+
+end;
+
+procedure TFrmCadastro.BtCancelarClick(Sender: TObject);
+begin
+  inherited;
+  if Application.MessageBox('Deseja cancelar as alterações?', 'Atenção', MB_YESNO + MB_ICONQUESTION) = IDYES then
+  begin
+    self.ModalResult := mrCancel;
+  end;
+end;
+
+procedure TFrmCadastro.BtConfirmarClick(Sender: TObject);
+begin
+  inherited;
+  if self.Acao = acAlterar then
+  begin
+    if self.Atualizar then
+      self.ModalResult := mrOk
+    else
+      self.ModalResult := mrNone;
+  end
+  else if self.Acao = acIncluir then
+  begin
+    if self.Incluir then
+      self.ModalResult := mrOk
+    else
+      self.ModalResult := mrNone;
+  end;
+end;
+
+
+
+class procedure TFrmCadastro.ControleParaObjeto;
+begin
+
+end;
+
+class function TFrmCadastro.Incluir: boolean;
+begin
+
+end;
+
+class procedure TFrmCadastro.ObjetoParaControle;
+begin
+
+end;
+
+class function TFrmCadastro.ValidaDados: boolean;
+begin
+
+end;
+
+end.

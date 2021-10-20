@@ -1,0 +1,49 @@
+unit UBase;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, ULib;
+
+type
+    TItemTabela = class
+      CodTab  : string;
+      DescTab : string;
+   public
+      constructor Create;
+      procedure   nulo;
+  end;
+
+  TFrmBase = class(TForm)
+  private
+    { Private declarations }
+  public
+    ItemTabela : TItemTabela;
+    { Public declarations }
+  end;
+
+var
+  FrmBase: TFrmBase;
+
+implementation
+
+{$R *.dfm}
+
+uses UConexao;
+
+{ TItemTabela }
+
+constructor TItemTabela.Create;
+begin
+  CodTab  := '';
+  DescTab := '';
+end;
+
+procedure TItemTabela.nulo;
+begin
+  CodTab := '';
+  DescTab := '';
+end;
+
+end.
