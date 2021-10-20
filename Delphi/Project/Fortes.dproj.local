@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/19 12:07:32.000.381,=C:\Users\valci\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/19 12:08:05.000.077,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\Unit1.dfm=C:\Users\valci\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/10/19 12:08:05.000.077,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\Unit1.pas=C:\Users\valci\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/19 12:08:17.000.844,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Project\Fortes.dproj=C:\Users\valci\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/10/19 12:34:04.000.953,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\FormPadrao\UBase.pas</Transaction>
+    <Transaction>2021/10/19 12:34:05.000.291,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\FormPadrao\ULista.pas</Transaction>
+    <Transaction>2021/10/19 12:34:05.000.062,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\FormPadrao\ULib.pas</Transaction>
+    <Transaction>2021/10/19 12:34:05.000.030,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\FormPadrao\UCadastro.pas</Transaction>
+    <Transaction>2021/10/19 12:35:11.000.140,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UConexao.pas</Transaction>
+    <Transaction>2021/10/19 12:35:39.000.523,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UMenu.pas</Transaction>
+    <Transaction>2021/10/19 12:35:56.000.286,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaProduto.pas</Transaction>
+    <Transaction>2021/10/19 12:35:56.000.205,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadProduto.pas</Transaction>
+    <Transaction>2021/10/19 12:36:17.000.532,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Entities\UProduto.pas</Transaction>
+    <Transaction>2021/10/19 12:36:23.000.275,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Facade\UFachadaProduto.pas</Transaction>
+    <Transaction>2021/10/19 12:36:29.000.908,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Repository\URepositorioProduto.pas</Transaction>
+    <Transaction>2021/10/19 12:51:56.000.952,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Entities\UCombustivel.pas</Transaction>
+    <Transaction>2021/10/19 12:52:37.000.228,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Facade\UFachadaCombustivel.pas</Transaction>
+    <Transaction>2021/10/19 12:57:05.000.877,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Repository\URepositorioCombustivel.pas</Transaction>
+    <Transaction>2021/10/19 13:12:53.000.350,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaCombustivel.pas</Transaction>
+    <Transaction>2021/10/19 13:13:03.000.447,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadCombustivel.pas</Transaction>
+    <Transaction>2021/10/19 15:18:31.000.354,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Entities\UTanque.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Entities\UCombustivel.pas</Transaction>
+    <Transaction>2021/10/19 15:22:11.000.737,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Entities\UCombustivel.pas</Transaction>
+    <Transaction>2021/10/19 15:29:53.000.837,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Repository\URepositorioCombustivel.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Repository\URepositorioTanque.pas</Transaction>
+    <Transaction>2021/10/19 15:30:07.000.408,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Repository\URepositorioCombustivel.pas</Transaction>
+    <Transaction>2021/10/19 15:41:33.000.667,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Facade\UFachadaCombustivel.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Facade\UFachadaTanque.pas</Transaction>
+    <Transaction>2021/10/19 15:41:45.000.369,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Facade\UFachadaCombustivel.pas</Transaction>
+    <Transaction>2021/10/19 15:43:32.000.841,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadCombustivel.dfm=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadTanque.dfm</Transaction>
+    <Transaction>2021/10/19 15:43:32.000.841,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadCombustivel.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadTanque.pas</Transaction>
+    <Transaction>2021/10/19 15:46:18.000.494,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadCombustivel.pas</Transaction>
+    <Transaction>2021/10/19 15:50:36.000.757,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaCombustivel.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaTanque.pas</Transaction>
+    <Transaction>2021/10/19 15:50:36.000.757,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaCombustivel.dfm=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaTanque.dfm</Transaction>
+    <Transaction>2021/10/19 15:52:09.000.043,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaCombustivel.pas</Transaction>
+    <Transaction>2021/10/19 17:10:09.000.030,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Entities\UAbastecimento.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Entities\UTanque.pas</Transaction>
+    <Transaction>2021/10/19 20:17:02.000.554,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Entities\UTanque.pas</Transaction>
+    <Transaction>2021/10/19 20:18:15.000.484,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Repository\URepositorioTanque.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Repository\URepositorioAbastecimento.pas</Transaction>
+    <Transaction>2021/10/19 20:47:44.000.458,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Repository\URepositorioTanque.pas</Transaction>
+    <Transaction>2021/10/19 20:58:51.000.446,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Facade\UFachadaTanque.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Facade\UFachadaAbastecimento.pas</Transaction>
+    <Transaction>2021/10/19 21:01:42.000.203,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadTanque.dfm=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadAbastecimento.dfm</Transaction>
+    <Transaction>2021/10/19 21:01:42.000.203,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadTanque.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadAbastecimento.pas</Transaction>
+    <Transaction>2021/10/19 21:03:32.000.271,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadTanque.pas</Transaction>
+    <Transaction>2021/10/19 21:03:54.000.674,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Facade\UFachadaTanque.pas</Transaction>
+    <Transaction>2021/10/19 21:07:26.000.314,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Entities\UTanque.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Entities\UBomba.pas</Transaction>
+    <Transaction>2021/10/19 21:09:35.000.475,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Repository\URepositorioTanque.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Repository\URepositorioBomba.pas</Transaction>
+    <Transaction>2021/10/19 21:10:43.000.934,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Entities\UTanque.pas</Transaction>
+    <Transaction>2021/10/19 21:10:58.000.974,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Repository\URepositorioTanque.pas</Transaction>
+    <Transaction>2021/10/19 21:32:40.000.863,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Facade\UFachadaTanque.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Facade\UFachadaBomba.pas</Transaction>
+    <Transaction>2021/10/19 21:33:43.000.738,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Facade\UFachadaTanque.pas</Transaction>
+    <Transaction>2021/10/19 21:34:34.000.668,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadTanque.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadBomba.pas</Transaction>
+    <Transaction>2021/10/19 21:34:34.000.668,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadTanque.dfm=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadBomba.dfm</Transaction>
+    <Transaction>2021/10/19 21:40:56.000.770,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UCadTanque.pas</Transaction>
+    <Transaction>2021/10/19 21:47:14.000.511,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaTanque.dfm=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaBomba.dfm</Transaction>
+    <Transaction>2021/10/19 21:47:14.000.511,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaTanque.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaBomba.pas</Transaction>
+    <Transaction>2021/10/19 21:57:51.000.766,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaTanque.pas</Transaction>
+    <Transaction>2021/10/20 01:45:30.000.578,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaTanque.dfm=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaAbastecimento.dfm</Transaction>
+    <Transaction>2021/10/20 01:45:30.000.578,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaTanque.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaAbastecimento.pas</Transaction>
+    <Transaction>2021/10/20 01:56:57.000.730,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UListaTanque.pas</Transaction>
+    <Transaction>2021/10/20 02:28:12.000.021,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Project\Unit1.pas</Transaction>
+    <Transaction>2021/10/20 02:31:38.000.733,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Project\Unit1.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\URelatorioAbastecimento.pas</Transaction>
+    <Transaction>2021/10/20 02:31:38.000.733,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Project\Unit1.dfm=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\URelatorioAbastecimento.dfm</Transaction>
+    <Transaction>2021/10/20 06:06:22.919,=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Project\Unit1.pas</Transaction>
+    <Transaction>2021/10/20 06:31:57.833,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UImpressaoAbastecimento.dfm=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Project\Unit1.dfm</Transaction>
+    <Transaction>2021/10/20 06:31:57.833,C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\forms\UImpressaoAbastecimento.pas=C:\Users\valci\OneDrive\Área de Trabalho\Fortes - Teste Valcir\Delphi\Project\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
